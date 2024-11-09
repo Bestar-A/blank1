@@ -1,0 +1,29 @@
+{
+	"name": "remotion-dataset",
+	"version": "1.0.0",
+	"description": "My Remotion video",
+	"scripts": {
+		"start": "remotion preview",
+		"build": "remotion render Main out/Main.mp4",
+		"upgrade": "remotion upgrade",
+		"render": "ts-node ./src/render.ts --exit-child",
+		"test": "eslint src --ext ts,tsx,js,jsx && tsc"
+	},
+	"repository": {},
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@remotion/eslint-config": "^4.0.54",
+		"@types/react": "^18.0.6",
+		"@types/web": "^0.0.61",
+		"eslint": "^8.14.0",
+		"prettier": "^2.2.1",
+		"typescript": "^4.6.3"
+	},
+	"dependencies": {
+		"@remotion/cli": "^4.0.54",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"remotion": "^4.0.54",
+		"ts-node": "^10.9.1"
+	}
+}
